@@ -28,6 +28,10 @@ Copy the migration files using `rake`:
 ```
 $ rake invoice_bar:install:migrations
 ```
+Create db and run migrations:
+```
+$ rake db:migrate
+```
 And run the app:
 ```
 $ rails s
